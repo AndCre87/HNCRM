@@ -1,5 +1,5 @@
 %%%
-%Simple Univariate model using Normal-Inverse gamma variables
+% Univariate model using Normal-Inverse gamma variables (non-conjugate) and HNGG for School data
 %%%
 
 clear all
@@ -575,8 +575,8 @@ Binder_II = zeros(1,n_save);
 %Binder LF's parameters are equal in this case
 k1 = 1;
 k2 = 1;
-Binder_coeff = k1/(k1+k2);  %quando è uguale a un mezzo equivale a Dahl (Binder con costi unitari)
-%però esistono infinite combinazioni che danno un mezzo!!
+Binder_coeff = k1/(k1+k2);  %quando Ã¨ uguale a un mezzo equivale a Dahl (Binder con costi unitari)
+%perÃ² esistono infinite combinazioni che danno un mezzo!!
 
 for g = 1:n_save
     cij_II = zeros(sum(n),sum(n));
