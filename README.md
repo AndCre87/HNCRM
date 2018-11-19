@@ -3,7 +3,7 @@ Hierarchical Normalized Completely Random Measures to Cluster Grouped Data
 
 # Authors
 
->  Raffaele Argiento, ESOMAS Department, University of Torino and Collegio Carlo Alberto, Torino, Italy;
+>  Raffaele Argiento, ESOMAS Department, University of Torino and Collegio Carlo Alberto, Torino, Italy; \\
 > Andrea Cremaschi, Department of Cancer Immunology, Institute of Cancer Research, Oslo University Hospital, Oslo, Norway
 and Oslo Centre for Biostatistics and Epidemiology, University of Oslo, Oslo, Norway;
 > Marina Vannucci, Department of Statistics, Rice University, Houston, TX, USA.
