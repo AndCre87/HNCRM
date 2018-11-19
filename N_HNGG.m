@@ -1,5 +1,5 @@
 %%%
-%Simple Univariate model using Normal-Inverse gamma variables
+%Simple Univariate model using Normal-Inverse gamma variables and HNGG
 %%%
 
 clear all
