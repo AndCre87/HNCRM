@@ -2,6 +2,8 @@
 % Univariate model using Normal-Inverse gamma variables (non-conjugate) and HNGG for School data
 %%%
 
+% The school data can be found at: https://www.stat.washington.edu/people/pdhoff/Book/Data/data/Y.school.mathscore
+
 clear all
 rng(123)
 
