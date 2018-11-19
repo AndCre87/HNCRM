@@ -1,6 +1,6 @@
 
 %%%
-% Univariate model using Normal-Inverse gamma variables
+% Univariate model using Normal-Inverse gamma variables and Independent NGG's
 %%%
 
 clear all
