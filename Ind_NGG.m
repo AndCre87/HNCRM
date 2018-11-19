@@ -1,9 +1,6 @@
-%%%
-%Simple Univariate model using Normal-Extended gamma variables
-%%%
 
 %%%
-%Simple Univariate model using Normal-Inverse gamma variables
+% Univariate model using Normal-Inverse gamma variables
 %%%
 
 clear all
