@@ -14,7 +14,7 @@ and Oslo Centre for Biostatistics and Epidemiology, University of Oslo, Oslo, No
 A Bayesian nonparametric model for clustering grouped data is described. We adopt a hierarchical approach: at the highest level, each group of data is modelled according to a mixture, where the mixing distributions are conditionally independent normalized completely random measures (NormCRMs) centered on the same base measure, which is itself a NormCRM. The discreteness of the shared base measure implies that the processes at the data level share the same atoms. This desired feature allows to cluster together observations of different groups. We obtain a representation of the hierarchical clustering model by marginalizing with respect to the infinite dimensional NormCRMs. We investigate the properties of the clustering structure induced by the proposed model and provide theoretical results concerning the distribution of the number of clusters, within and between groups. Furthermore, we offer an interpretation in terms of generalized Chinese restaurant franchise process, which allows for posterior inference under both conjugate and non-conjugate models. We develop algorithms for fully Bayesian inference and assess performances by means of a simulation study and a real-data illustration.
 
 # Contents
-1) N_Ind_NGG.m
+1) Ind_NGG.m
 2) N_HNGG.m
 3) School_HNGG.m
 
@@ -25,7 +25,7 @@ The MCMC output is saved, and can be used to produce the figures presented in th
 The code producing the figures follows the main MCMC algorithm part.
 
 #################
-1) N_Ind_NGG.m
+1) Ind_NGG.m
 Matlab code for simulated data (d = 2) fitted using the conjugate Normal-inverse gamma model and independent NGG processes for each group.
 
 #################
