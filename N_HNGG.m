@@ -441,7 +441,7 @@ for iter = 1:n_iter
                 if aloneMk
                     %Same number of dishes in the global menu
                     %Number of tables serving this dish is increased by one (equal to 1)
-                    M{j}(aux_k) = 1;
+                    M_j(aux_k) = 1;
                     M_k(aux_k) = 1;
                 else
                     Kn = Kn + 1;
